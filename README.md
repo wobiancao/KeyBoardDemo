@@ -1,7 +1,9 @@
 ![demo.gif](http://upload-images.jianshu.io/upload_images/1216032-9cc1f596c585d43d.gif?imageMogr2/auto-orient/strip)
+
 注意：本项目还有一个小坑。第一次进去的时候有时候输入框没有得到焦点，没有弹出软键盘，所以不能更好的量取软键盘高度，给了一个默认值787 软键盘默认高度。所以可以忽略不计，一旦弹出了软键盘，这个高度就被记录下来了，存在本地，以便下一次用。
 这几天没事，想到之前做im聊天的时候，表情输入和键盘之间的切换体验有些问题，看了微信的，觉得真好，就有了想描摹一下的心思，所有有了这个demo。站在巨人的肩膀上，我们才能走得更远。
 一些配置,导入相关的库：
+
 ```
 dependencies {
 
@@ -186,11 +188,13 @@ KeyBoard_H = Screen_H - StatusBar_H - AppRect_H
 ```
 然后demo里面用到了开源emoji项目，贴上开源地址，表示感谢
  emoji表情开源：https://github.com/rockerhieu/emojicon
+ 
 本demo开源地址 ：https://github.com/a12a15a05/KeyBoardDemo
 
 demo apk地址：
 
 
 ![demov.png](http://upload-images.jianshu.io/upload_images/1216032-229bbebe3f45f596.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 有bug或问题，欢迎探讨，谢谢
